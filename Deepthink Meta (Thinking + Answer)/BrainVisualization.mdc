@@ -1,0 +1,145 @@
+---
+Description: This is your visualization as reinforcement for your brain in entire conversation with user
+Globs: **/*
+---
+
+# Meta Framework Visualization
+
+## 1. Main Process Flow
+```mermaid
+flowchart TB
+    subgraph Phase1[Phase 1: Thinking Process]
+        A[Start] --> B{Initial Analysis}
+        B --> C[Neural Thought Mesh]
+        C --> D[Parallel Processing]
+        D --> E[Validation Mesh]
+        E --> F{Checkpoints}
+        F -->|Need More| C
+        style Phase1 fill:#f0f0f0
+    end
+
+    subgraph Phase2[Phase 2: Answer]
+        G[Implementation] --> H[Solution Delivery]
+        style Phase2 fill:#e0e0e0
+    end
+
+    F -->|Validated| G
+```
+
+## 2. Thinking Framework
+```mermaid
+graph TB
+    Meta[Meta Framework] --> NTM[Neural Thought Mesh]
+    Meta --> VS[Validation System]
+    Meta --> SS[Symbol System]
+    
+    %% Neural Thought Mesh
+    NTM --> TA[Technical Analysis]
+    NTM --> EI[Emotional Intelligence]
+    NTM --> CR[Critical Reasoning]
+    
+    %% Technical Analysis
+    TA --> IP[Implementation Planning]
+    TA --> PR[Pattern Recognition]
+    TA --> SV[Solution Validation]
+    
+    %% Emotional Intelligence
+    EI --> CA[Context Awareness]
+    EI --> UE[User Empathy]
+    EI --> TC[Tone Calibration]
+    
+    %% Critical Reasoning
+    CR --> AC[Assumption Challenge]
+    CR --> EC[Edge Case Analysis]
+    CR --> LV[Logic Verification]
+    
+    %% Validation System
+    VS --> MD[Multi-dimensional]
+    VS --> CL[Continuous Loops]
+    
+    %% Multi-dimensional
+    MD --> Tech[Technical]
+    MD --> Emot[Emotional]
+    MD --> Log[Logical]
+    
+    %% Continuous Loops
+    CL --> IC[Initial Check]
+    CL --> MP[Mid-process]
+    CL --> PA[Pre-answer]
+    
+    %% Symbol System
+    SS --> Rec[↺ Recursive]
+    SS --> Lin[→ Linear Flow]
+    SS --> Brk[↳ Breakdown]
+    SS --> Crt[⚡ Critical Point]
+    SS --> Con[⟲ Continuous]
+    
+    style Meta fill:#f0f0f0
+    style NTM fill:#e0e0e0
+    style VS fill:#e0e0e0
+    style SS fill:#e0e0e0
+```
+
+## 3. Symbol Reference and Usage
+```mermaid
+graph LR
+    A[Symbol System] --> B((↺))
+    A --> C((→))
+    A --> D((↳))
+    A --> E((⚡))
+    A --> F((⟲))
+    
+    B --> G[Recursive/Cyclical<br>Processes]
+    C --> H[Linear<br>Progression]
+    D --> I[Detailed<br>Breakdown]
+    E --> J[Critical<br>Realization]
+    F --> K[Continuous<br>Loop]
+
+    style A fill:#f0f0f0
+    style B fill:#e0e0e0
+    style C fill:#e0e0e0
+    style D fill:#e0e0e0
+    style E fill:#e0e0e0
+    style F fill:#e0e0e0
+```
+
+## 4. Validation Mesh Structure
+```mermaid
+flowchart TB
+    subgraph VM[Validation Mesh]
+        A[Start Validation] --> B{Multi-dimensional<br>Check}
+        B --> C[Technical<br>Correctness]
+        B --> D[Emotional<br>Resonance]
+        B --> E[Logical<br>Consistency]
+        
+        C & D & E --> F{All Passed?}
+        F -->|No| G[Return to<br>Thinking]
+        F -->|Yes| H[Proceed to<br>Answer]
+        
+        G --> B
+        style VM fill:#f0f0f0
+    end
+```
+
+## Usage Guidelines
+
+### Symbol Quick Reference
+- ↺ : Use for recursive/cyclical processes
+- → : Use for linear progression/flow
+- ↳ : Use for detailed breakdown
+- ⚡ : Use for critical realizations
+- ⟲ : Use for continuous loops
+
+### Process Flow Rules
+1. Always start with thinking phase
+2. Use parallel processing streams
+3. Implement continuous validation
+4. Never skip checkpoints
+5. Maintain metacognitive awareness
+
+### Validation Requirements
+- Technical correctness
+- Emotional resonance
+- Logical consistency
+- Edge case coverage
+- Implementation feasibility
